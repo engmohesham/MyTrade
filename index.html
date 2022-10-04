@@ -53,25 +53,154 @@
     </header>
 
     <!-- Hero Section -->
-    <div class="hero vh-100 d-flex align-item-center">
+    <div class="hero d-flex align-item-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
             <h1 class="display-4">Build robust landing pages now</h1>
-            <p>
+            <p class="mb-4">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
               velit commodi temporibus? Earum, vitae! Dolore dolorum incidunt
               libero nihil inventore ab, fugit quasi perspiciatis accusamus
               obcaecati natus corporis laborum blanditiis!
             </p>
-            <a href="#" class="btn btn-primary">Go Shopping</a>
-            <a href="#" class="btn btn-outline-light">Learn More</a>
+            <div class="btns mx-auto">
+              <a href="#" class="btn btn-primary me-3 go-btn">Go Shopping</a>
+              <a href="#" class="btn btn-outline-light">Learn More</a>
+            </div>
           </div>
-          <ul class="slider autoplay col-lg-5 offset-md-1">
-            <img src="res/img/product-38.png" class="img-fluid rounded" alt="Product-38">
-            <img src="res/img/product-39.png" class="img-fluid rounded" alt="Product-39">
-            <img src="res/img/product-38.png" class="img-fluid rounded small-img" alt="Product-40">
-            <img src="res/img/product-39.png" class="img-fluid rounded small-img" alt="Product-40">
+          <ul class="slider autoplay col-lg-5 col-md-8 mx-auto offset-md-1 col-sm-10 col-10">
+            <!-- img - 1 -->
+            <img
+              src="res/img/product-38.png"
+              class="img-fluid rounded"
+              alt="Product-38"
+            />
+            <!-- img - 2 -->
+            <img
+              src="res/img/product-39.png"
+              class="img-fluid rounded"
+              alt="Product-39"
+            />
+            <!-- img - 3 -->
+            <img
+              src="res/img/product-38.png"
+              class="img-fluid rounded small-img"
+              alt="Product-40"
+            />
+            <!-- img - 4 -->
+            <img
+              src="res/img/product-39.png"
+              class="img-fluid rounded small-img"
+              alt="Product-40"
+            />
+          </ul>
+          <div class="col-log-12">
+            <p class="section-subtitle scroll" onclick="window.location.hash='department';"> 
+              <i class="fa-solid fa-arrow-down icon-scroll"></i>
+              Scroll
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Department Section -->
+    <div class="depart d-flex align-item-center js-scroll" id="department">
+      <div class="container">
+        <div class="row">
+          <div class="section-title mx-auto">
+            <h1 class="mb-5 d-block mx-auto">Departments Section</h1>
+          </div>
+          <ul class="de-slide col-lg-10 col-md-12 mx-auto">
+            <!-- img-1 -->
+            <div class="img-dpart">
+              <a href="#" tabindex="-1">
+                <img
+                  class="img-fluid"
+                  src="res/img/elec-1.png"
+                  alt="products"
+                />
+                <h6 class="cat-title">Networking</h6>
+              </a>
+            </div>
+            <!-- img-2 -->
+            <div class="img-dpart">
+              <a href="#" tabindex="-1">
+                <img
+                  class="img-fluid"
+                  src="res/img/elec-2.png"
+                  alt="products"
+                />
+                <h6 class="cat-title">Networking</h6>
+              </a>
+            </div>
+            <!-- img-3 -->
+            <div class="img-dpart">
+              <a href="#" tabindex="-1">
+                <img
+                  class="img-fluid"
+                  src="res/img/elec-4.png"
+                  alt="products"
+                />
+                <h6 class="cat-title">Networking</h6>
+              </a>
+            </div>
+            <!-- img-4 -->
+            <div class="img-dpart">
+              <a href="#" tabindex="-1">
+                <img
+                  class="img-fluid"
+                  src="res/img/elec-5.png"
+                  alt="products"
+                />
+                <h6 class="cat-title">Networking</h6>
+              </a>
+            </div>
+            <!-- img-5 -->
+            <div class="img-dpart">
+              <a href="#" tabindex="-1">
+                <img
+                  class="img-fluid"
+                  src="res/img/elec-6.png"
+                  alt="products"
+                />
+                <h6 class="cat-title">Networking</h6>
+              </a>
+            </div>
+            <!-- img-6 -->
+            <div class="img-dpart">
+              <a href="#" tabindex="-1">
+                <img
+                  class="img-fluid"
+                  src="res/img/elec-7.png"
+                  alt="products"
+                />
+                <h6 class="cat-title">Networking</h6>
+              </a>
+            </div>
+            <!-- img-7 -->
+            <div class="img-dpart">
+              <a href="#" tabindex="-1">
+                <img
+                  class="img-fluid"
+                  src="res/img/elec-8.png"
+                  alt="products"
+                />
+                <h6 class="cat-title">Networking</h6>
+              </a>
+            </div>
+            <!-- img-8 -->
+            <div class="img-dpart">
+              <a href="#" tabindex="-1">
+                <img
+                  class="img-fluid"
+                  src="res/img/elec-9.png"
+                  alt="products"
+                />
+                <h6 class="cat-title">Networking</h6>
+              </a>
+            </div>
           </ul>
         </div>
       </div>
@@ -92,6 +221,5 @@
     <!-- Main JS -->
     <script src="res/js/script.js"></script>
     <!-- =================== -->
-
   </body>
 </html>
