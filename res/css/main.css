@@ -194,6 +194,11 @@ img {
 .dis {
   opacity: 0;
 }
+@media (min-width: 767px) {
+  .hide {
+    display: inherit !important;
+  }
+}
 
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
